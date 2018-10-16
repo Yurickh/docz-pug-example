@@ -50,3 +50,5 @@ Passing pug definitions inside the Playground component will create a dark overl
   `}
 </Playground>
 ```
+
+![Dark overlay](https://github.com/Yurickh/docz-pug-example/raw/master/dark-overlay.png)
