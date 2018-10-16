@@ -1,0 +1,17 @@
+{
+  "name": "docz-pug-example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Yurick <yurick.hauschild@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "docz": "^0.12.5"
+  },
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "babel-plugin-transform-react-pug": "^6.0.1",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2"
+  }
+}
