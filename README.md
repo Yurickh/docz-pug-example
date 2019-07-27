@@ -1,4 +1,5 @@
 # Docz pug integration example
+
 Documenting pug code blocks with docz
 
 ## Running the example
@@ -21,8 +22,8 @@ Add the plugin to your `doczrc.js` config:
 export default {
   modifyBabelRc: babelrc => ({
     ...babelrc,
-    plugins: [...babelrc.plugins, 'transform-react-pug']
-  })
+    plugins: [...babelrc.plugins, 'transform-react-pug'],
+  }),
 }
 ```
 
@@ -33,7 +34,7 @@ export default {
   modifyBabelRc: babelrc => {
     babelrc.plugins.push('transform-react-pug')
     return babelrc
-  }
+  },
 }
 ```
 
